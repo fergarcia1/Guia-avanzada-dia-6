@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Guia_avanzada
 {
-    interface ListaDevPlace<T>
+    public interface ListaDevPlace<T>
     {
         void AgregarItem(T item);
         void BorrarItem(T item);

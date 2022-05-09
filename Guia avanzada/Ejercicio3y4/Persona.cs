@@ -6,15 +6,17 @@ using System.Threading.Tasks;
 
 namespace Guia_avanzada
 {
-    partial class Persona
+    public partial class Persona
     {
         private string fechaNacimiento;
         private string nombre;
+        private int edad;
 
-        public Persona(string fechaNacimiento, string nombre)
+        public Persona(string fechaNacimiento, string nombre,int edad)
         {
             this.fechaNacimiento = fechaNacimiento;
             this.nombre = nombre;
+            this.edad = edad;
         }
     }
 }
